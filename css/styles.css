@@ -580,7 +580,7 @@ body {
     border-radius: 4px;
     outline: none;
     color: #FFFFFF;
-    background-color:#2E2F42;
+    background-color: transparent;
     padding: 0;
     padding-left: 16px;
 }
@@ -920,7 +920,8 @@ body {
     transform: translateY(-50%);
     position: absolute;
     width: 18px;
-    height: 18px; 
+    height: 18px;
+    transition: fill var(--overlay-time);
 }
 
 .modal-form-input:focus + .modal-form-svg{
